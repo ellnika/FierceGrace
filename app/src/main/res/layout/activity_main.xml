@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/darker_gray"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context="com.example.ewa.fiercegrace.MainActivity"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fierceg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "CONTACT"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_mylocation"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:text = "53-55 East Rd, London N1 6AH"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:text = "020 7336 6330"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_info_details"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:paddingLeft="20dp"
+                android:text = "Monday-Friday 6:30-21:00 \n Saturday 06:30-17:00 \n Sunday 07:00-17:00"
+                android:lines="3"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "DESCRIPTION"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Fierce Grace®Live life is a Yoga system and brand developed by Michele Pernetta, one of the UK’s most senior Hot Yoga teachers.
+Fierce Grace classes combine strength and ﬂexibility for both body and mind. Based on classical Hatha Yoga, Bikram and Ashtanga Yoga, and sequenced in ways that adhere to ancient Yogic principles as well as the latest cutting-edge research on attaining optimum results in the minimum amount of time, Fierce Grace is a unique series of 6 different classes based on the same core poses and principles, each with a different emphasis, duration and intensity."/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
